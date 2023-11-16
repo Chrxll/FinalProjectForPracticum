@@ -1,7 +1,7 @@
 # Богомолов Игорь, 10-я когорта — Финальный проект. Инженер по тестированию плюс
-import requests
-import configuration
 import data
+import configuration
+import requests
 
 def post_new_order():
     return requests.post(configuration.URL_SERVICE + configuration.CREATE_ORDER_PATH,
